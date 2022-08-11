@@ -1,0 +1,59 @@
+.productsGrid {
+    display: grid;
+/*     grid-template-rows: 1;
+    grid-template-columns: 50% 50%; */
+    grid-row-gap: 2%;
+    grid-column-gap: 1%;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: center;
+}
+
+.productContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: auto;
+    border-radius: 2%;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.productImg {
+    max-height: 400px;
+    height: 100%;
+    width: 100%;
+    border-radius: 2%;
+}
+
+.productDetails {
+    border-left: solid 1px;
+    padding-left: 5%;
+    height: auto;
+    width: 3;
+}
+
+.productTitle {
+    padding-top: 15%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.productButton {
+    border: none;
+    border-radius: 5%;
+    background-color: dodgerblue;
+    color: white;
+    height: 10%;
+    width: 40%;
+}
+
+@media (max-width:820px){
+    .shoesGrid {
+        grid-template-columns: 100%;
+    }
+}

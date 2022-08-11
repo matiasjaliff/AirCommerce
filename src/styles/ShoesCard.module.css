@@ -1,0 +1,29 @@
+.shoesCard {
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.shoesImage {
+    text-decoration: none;
+    border-radius: 5%;
+    height: 20em;
+    width: 20em;
+}
+
+.productButton {
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    height: 5%;
+    width: 30%;
+    
+}
+
+.productButton:hover {
+    background-color: white; 
+    color: black; 
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);}

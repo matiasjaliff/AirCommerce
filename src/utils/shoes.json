@@ -1,0 +1,132 @@
+[
+  {
+    "barcode": 7868000790101,
+    "brand": "Reebok",
+    "model": "Ghostbusters Ecto Boots",
+    "color": "Grey",
+    "price": 144.97,
+    "size": 7,
+    "stock": 10,
+    "url_path": "/01.jpg"
+  },
+  {
+    "barcode": 7868000790102,
+    "brand": "Reebok",
+    "model": "Club C 85 Vintage Shoes",
+    "color": "Beige",
+    "price": 85,
+    "size": 8,
+    "stock": 9,
+    "url_path": "/02.jpg"
+  },
+  {
+    "barcode": 7868000790103,
+    "brand": "Reebok",
+    "model": "Nanoflex TR Women's Training Shoes",
+    "color": "Pink",
+    "price": 64.97,
+    "size": 6,
+    "stock": 11,
+    "url_path": "/03.jpg"
+  },
+  {
+    "barcode": 7868000790104,
+    "brand": "Adidas",
+    "model": "Forum 84 Low Shoes",
+    "color": "Brown",
+    "price": 100,
+    "size": 8,
+    "stock": 23,
+    "url_path": "/04.jpg"
+  },
+  {
+    "barcode": 7868000790105,
+    "brand": "Adidas",
+    "model": "Ultraboost 22 Shoes",
+    "color": "Almost lime",
+    "price": 190,
+    "size": 10,
+    "stock": 21,
+    "url_path": "/05.jpg"
+  },
+  {
+    "barcode": 7868000790106,
+    "brand": "Adidas",
+    "model": "Puremotion Adapt Shoes",
+    "color": "Burgundy",
+    "price": 46,
+    "size": 5,
+    "stock": 13,
+    "url_path": "/06.jpg"
+  },
+  {
+    "barcode": 7868000790107,
+    "brand": "Adidas",
+    "model": "Supernova W",
+    "color": "Sky Rush",
+    "price": 70,
+    "size": 6,
+    "stock": 15,
+    "url_path": "/07.jpg"
+  },
+  {
+    "barcode": 7868000790108,
+    "brand": "Adidas",
+    "model": "NMD_R1",
+    "color": "Bright Orange",
+    "price": 150,
+    "size": 7,
+    "stock": 0,
+    "url_path": "/08.jpg"
+  },
+  {
+    "barcode": 7868000790109,
+    "brand": "Nike",
+    "model": "Pegasus Trail 4",
+    "color": "5 Colors",
+    "price": 150,
+    "size": 12,
+    "stock": 31,
+    "url_path": "/09.jpg"
+  },
+  {
+    "barcode": 7868000790110,
+    "brand": "Nike",
+    "model": "Pegasus Trail 3",
+    "color": "Purple",
+    "price": 130,
+    "size": 14,
+    "stock": 3,
+    "url_path": "/10.jpg"
+  },
+  {
+    "barcode": 7868000790111,
+    "brand": "Inov",
+    "model": "F-Lite Fly G 295",
+    "color": "Red/Black",
+    "price": 170,
+    "size": 13,
+    "stock": 5,
+    "url_path": "/11.jpg"
+  },
+  {
+    "barcode": 7868000790112,
+    "brand": "Inov",
+    "model": "Bare-xf 210 V3",
+    "color": "Green/Gum",
+    "price": 120,
+    "size": 6,
+    "stock": 7,
+    "url_path": "/12.jpg"
+  },
+  {
+    "barcode": 7868000790113,
+    "brand": "Inov",
+    "model": "Fastlift 360",
+    "color": "Khaki",
+    "price": 190,
+    "size": 8,
+    "stock": 0,
+    "url_path": "/13.jpg"
+  }
+]

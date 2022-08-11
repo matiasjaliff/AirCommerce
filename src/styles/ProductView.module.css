@@ -1,0 +1,128 @@
+.productContainer {
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.column {
+    max-width: 400px;
+    max-height: 400px;
+    height: auto;
+    margin: 15px;
+    text-align: justify;
+    height: 100%;
+}
+
+.productImg {
+    max-height: 400px;
+    padding-top: auto;
+    margin-right: 2.5%;
+    height: 30%;
+    width: 30%;
+    flex-direction: column;
+}
+
+.productDetails {
+    border-style: solid ;
+    border-width: 1px;
+    margin-left: 2.5%;
+    padding-left: 2%;
+    margin-right: 2.5%;
+    padding-right: 2%;
+    height: auto;
+    width: 30%;
+    flex-direction: column;
+}
+
+.productTitle {
+    padding-top: 15%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.productButton {
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    height: 10%;
+    width: 40%;
+}
+
+.productButton:hover {
+    background-color: white; 
+    color: black; 
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);}
+
+
+
+@media (max-width:800px){
+    .productContainer {
+        margin-top: 2%;
+        margin-bottom: 0.5%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .column {
+        max-width: 400px;
+        max-height: 400px;
+        height: auto;
+        margin: 15px;
+        text-align: justify;
+        height: 100%;
+    }
+    
+    .productImg {
+        max-height: 400px;
+        padding-top: auto;
+        margin-right: 2.5%;
+        height: 30%;
+        width: 80%;
+        flex-direction: column;
+    }
+    
+    .productDetails {
+        border-style: solid ;
+        border-width: 1px;
+        margin-left: 2.5%;
+        padding-left: 2%;
+        margin-right: 2.5%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .productTitle {
+        padding-top: 5%;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    
+    .productButton {
+        border: none;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        height: 10%;
+        width: 40%;
+    }
+    
+    .productButton:hover {
+        background-color: white; 
+        color: black; 
+        border-radius: 20px;
+        font-size: 15px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);}
+}

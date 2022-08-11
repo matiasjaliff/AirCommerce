@@ -1,0 +1,71 @@
+{
+  "name": "AirComerce",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.2",
+    "@sweetalert2/theme-bulma": "^5.0.11",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.2.0-beta1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "emailjs-com": "^3.2.0",
+    "express": "^4.18.1",
+    "express-session": "^1.17.2",
+    "formik": "^2.2.9",
+    "image-exists": "^1.1.0",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.5.2",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.4.0",
+    "react-redux": "^8.0.2",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "sequelize": "^6.20.1",
+    "sweetalert2": "^11.4.17",
+    "volleyball": "^1.5.1",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "concurrently 'npm run server' 'npm run client'",
+    "server": "nodemon api/server.js",
+    "client": "react-scripts start",
+    "build": "react-scripts build",
+    "seed": "node ./api/seed.js"
+  },
+  "proxy": "http://localhost:8080/api",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

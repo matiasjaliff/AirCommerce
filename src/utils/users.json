@@ -1,0 +1,79 @@
+[
+    {
+      "id": 1,
+      "name": "Freddie",
+      "last_name": "Mercury",
+      "email": "freddie@hotmail.com",
+      "password": "999cito",
+      "address": "742 Evergreen Terrace",
+      "DNI": 1001597283,
+      "isAdmin": false,
+      "isSuperAdmin": false
+    },
+    {
+        "id": 2,
+        "name": "Phil",
+        "last_name": "Anselmo",
+        "email": "phil@gmail.com",
+        "password": "siLaVidaMeDaPalo93",
+        "address": "90 Bedford St.",
+        "DNI": 1717853103,
+        "isAdmin": false,
+        "isSuperAdmin": false
+      },
+      {
+        "id": 3,
+        "name": "Bruce",
+        "last_name": "Dickinson",
+        "email": "bruce@gmail.com",
+        "password": "esViernes45",
+        "address": "129 West 81st Street, Apartment 5A",
+        "DNI": 1713022414,
+        "isAdmin": true,
+        "isSuperAdmin": false
+      },
+      {
+        "id": 4,
+        "name": "Till",
+        "last_name": "Lindemann",
+        "email": "till@hotmail.com",
+        "password": "666TNOTB",
+        "address": "likeAStone12",
+        "DNI": 1726649054,
+        "isAdmin": false,
+        "isSuperAdmin": true
+      },
+      {
+        "id": 5,
+        "name": "Trent",
+        "last_name": "Reznor",
+        "email": "trent@hotmail.com",
+        "password": "smellsLikeTeenSpirit23",
+        "address": "84 Beacon St.",
+        "DNI": 1708799505,
+        "isAdmin": false,
+        "isSuperAdmin": false
+      },
+      {
+        "id": 6,
+        "name": "James",
+        "last_name": "Keenan",
+        "email": "james@hotmail.com",
+        "password": "ichHabeKeineLust67",
+        "address": "308 Negra Arroyo Lane",
+        "DNI": 1103054292,
+        "isAdmin": false,
+        "isSuperAdmin": false
+      },
+      {
+        "id": 7,
+        "name": "Ronnie",
+        "last_name": "Dio",
+        "email": "ronnie@gmail.com",
+        "password": "ohnneDich15",
+        "address": "3828 Piermont Drive",
+        "DNI": 1715511026,
+        "isAdmin": false,
+        "isSuperAdmin": false
+      }    
+]

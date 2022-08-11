@@ -1,0 +1,35 @@
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  text-decoration: none;
+}
+
+.sidebar {
+
+  width: 14rem;
+  height: calc(100vh - 52px);
+  border-right: 2px solid gray;
+
+}
+
+.ul {
+  list-style-type: none;
+  padding: 1rem 2rem;
+  color: black;
+
+  
+}
+
+.list {
+    
+    text-decoration: none;
+    color: black;
+    
+  }
+
+li {
+  margin-bottom: 1rem;
+  text-decoration: none;
+  box-shadow: none;
+}

@@ -1,0 +1,73 @@
+.cart {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.cartItems {
+  background-color: whitesmoke;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtotal {
+  background-color: cadetblue;
+  flex: 0 0 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cuenta {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  height: 300px;
+  flex: 0 0 250px;
+  margin: 20px 20px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cuenta > h4 {
+  text-align: center;
+  margin: 0;
+}
+
+.cuenta > ul {
+  font-size: small;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+.cuenta > h5 {
+  text-align: right;
+  margin: 0;
+}
+
+.subtotal > a {
+  margin: 20px 50px;
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .cart {
+    flex-direction: column;
+  }
+
+  .subtotal{
+    margin-top: 20px;
+  }
+}

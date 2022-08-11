@@ -1,0 +1,46 @@
+.faStar {
+    margin-top: 5%;
+    font-size: 3em;
+    color: gold;
+   
+}
+
+.faRegStar {
+    margin-top: 5%;
+    font-size: 3em;
+    color: gold;
+}
+
+@media (max-width:800px){
+    .faStar {
+      
+        margin-top: 5%;
+        font-size: 9px;
+        color: gold;
+       
+    }
+    .faRegStar {
+       
+        margin-top: 5%;
+        font-size: 9px;
+        color: gold;
+    }
+
+}
+
+@media only screen and (min-width:800px) and (max-width:1100px){
+    .faStar {
+      
+        margin-top: 5%;
+        font-size: 22px;
+        color: gold;
+       
+    }
+    .faRegStar {
+       
+        margin-top: 5%;
+        font-size: 22px;
+        color: gold;
+    }
+
+}

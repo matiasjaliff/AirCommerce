@@ -10,7 +10,7 @@ As *admin* you will be able to manage product inventory, modify price and other 
 
 As *superadmin* you will be able to manage admin roles, in addition to all the functions of an admin.
 
-Video demo [here](#).
+Video demo [here](https://youtu.be/HE_NWGF4DSI).
 
 ## Technologies
 
